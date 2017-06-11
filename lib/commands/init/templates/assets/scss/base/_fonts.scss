@@ -1,0 +1,13 @@
+/* temp */
+/* stylelint-disable */
+// Add and/or delete formats you do(n"t) need
+@each $file-name, $font in $fonts {
+    @font-face {
+        font-family: map-get($font, "family");
+        src: url("#{$font-path}/#{$file-name}.woff") format("woff"),
+            url("#{$font-path}/#{$file-name}.ttf") format("truetype");
+        font-style: map-get($font, "style");
+        font-weight: map-get($font, "weight");
+    }
+}
+/* stylelint-enable*/

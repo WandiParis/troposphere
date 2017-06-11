@@ -1,0 +1,22 @@
+$font-path: "../fonts";
+
+// Fonts map to generate automatically @font-face rules in base/_fonts.scss
+// Each entry must have the following pattern :
+// "file-name": (
+//     "family": font-family,
+//     "style": font-style,
+//     "weight": font-weight
+// )
+$fonts: (
+);
+
+// Colors map
+// A color can be retrieved using get-color() function
+// See utils/_functions.scss for more info
+$colors: (
+);
+
+// Breakpoints map to use with include-media
+// See https://github.com/eduardoboucas/include-media
+$breakpoints: (
+);
