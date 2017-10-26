@@ -57,3 +57,6 @@ This will generate the CSS and JS files, but also do the following things :
 * add `import Slider from "./components/slider"` in `assets/js/global.js`
 * instantiate your component automatically on elements that match this selector
 : `.js-slider[data-auto-instantiate]`
+
+If you want to generate only CSS or JS files, you can use `--style` or
+`--script` options. But by default, both files will be generated.
