@@ -6,7 +6,8 @@
     "troposphere": "lib/index.js"
   },
   "scripts": {
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "test": "jest"
   },
   "dependencies": {
     "caporal": "^0.5.0",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "husky": "^0.14.3",
+    "jest": "^21.2.1",
     "lint-staged": "^4.0.1",
     "prettier": "^1.5.2"
   },
