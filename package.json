@@ -6,7 +6,7 @@
     "troposphere": "lib/index.js"
   },
   "scripts": {
-    "precommit": "lint-staged",
+    "precommit": "npm test && lint-staged",
     "test": "jest"
   },
   "dependencies": {
