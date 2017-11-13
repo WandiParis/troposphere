@@ -1,13 +1,14 @@
 {
   "name": "@wandiparis/troposphere",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "main": "lib/index.js",
   "bin": {
     "troposphere": "lib/index.js"
   },
   "scripts": {
     "precommit": "npm test && lint-staged",
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "dependencies": {
     "caporal": "^0.8.0",
@@ -21,12 +22,17 @@
     "husky": "^0.14.3",
     "jest": "^21.2.1",
     "lint-staged": "^5.0.0",
-    "prettier": "^1.8.2"
+    "prettier": "^1.8.2",
+    "semantic-release": "^8.2.0"
   },
   "lint-staged": {
     "*.js": [
       "prettier --write",
       "git add"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WandiParis/troposphere.git"
   }
 }
