@@ -12,7 +12,7 @@ Simply install it globally on your system :
 npm install -g "github:WandiParis/troposphere"
 ```
 
-## Usage
+## Commands
 
 There are two main aspects when using troposphere :
 
@@ -60,3 +60,29 @@ This will generate the CSS and JS files, but also do the following things :
 
 If you want to generate only CSS or JS files, you can use `--style` or
 `--script` options. But by default, both files will be generated.
+
+### `help [command]`
+
+Get some help about the CLI or a specific command by providing its name.
+
+## Options
+
+### `-h`, `--help`
+
+Display help about the CLI
+
+### `-V`, `--version`
+
+Display the version of troposphere currently installed on your system
+
+### `no-color`
+
+Disable colors
+
+### `--quiet`
+
+Only display warn and error messages
+
+### `-v`, `--verbose`
+
+Output all messages, including debug messages
