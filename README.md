@@ -2,8 +2,6 @@
 
 A CLI tool to bootstrap and manage our projects' front-end.
 
-** This project is still in development **
-
 ## Installation
 
 Simply install it globally on your system :
