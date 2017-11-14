@@ -1,6 +1,7 @@
 {
   "name": "@wandiparis/troposphere",
   "version": "0.0.0-development",
+  "author": "Cyrille Perois <cperois@outlook.com>",
   "main": "lib/index.js",
   "bin": {
     "troposphere": "lib/index.js"
