@@ -1,5 +1,8 @@
 # Troposphere
 
+[![Build Status](https://travis-ci.org/WandiParis/troposphere.svg?branch=master)](https://travis-ci.org/WandiParis/troposphere)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+
 A CLI tool to bootstrap and manage our projects' front-end.
 
 ## Installation
@@ -7,7 +10,7 @@ A CLI tool to bootstrap and manage our projects' front-end.
 Simply install it globally on your system :
 
 ```
-npm install -g "github:WandiParis/troposphere"
+npm install -g @wandiparis/troposphere
 ```
 
 ## Commands
