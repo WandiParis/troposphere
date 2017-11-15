@@ -31,6 +31,8 @@ troposphere init
 This will generate the directory structure and all the files you need. It will
 also install some gulp tasks and their dependencies.
 
+Alias : `i`
+
 ### `generate <component|page> <name>`
 
 To generate the CSS and JS file for a component or a page, type the following :
@@ -61,6 +63,8 @@ This will generate the CSS and JS files, but also do the following things :
 
 If you want to generate only CSS or JS files, you can use `--style` or
 `--script` options. But by default, both files will be generated.
+
+Alias : `g`
 
 ### `help [command]`
 
