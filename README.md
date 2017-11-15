@@ -20,7 +20,7 @@ There are two main aspects when using troposphere :
 * initialization : generate directory structure, files and install dependencies
 * management : generate components and/or pages
 
-### `init`
+### `init [--skip-deps]`
 
 To initialize your project, type the following :
 
@@ -32,6 +32,12 @@ This will generate the directory structure and all the files you need. It will
 also install some gulp tasks and their dependencies.
 
 Alias : `i`
+
+#### Options
+
+`-s, --skip-deps`
+
+Will skip dependencies installation process. If you add this option, the command will finish faster, but you will have to run `npm install` manually to be able to use `npm start` or `npm run compile` commands.
 
 ### `generate <component|page> <name>`
 
