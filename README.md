@@ -39,7 +39,7 @@ Alias : `i`
 
 Will skip dependencies installation process. If you add this option, the command will finish faster, but you will have to run `npm install` manually to be able to use `npm start` or `npm run compile` commands.
 
-### `generate <component|page> <name>`
+### `generate <component|page> <name> [--import] [--style] [--script]`
 
 To generate the CSS and JS file for a component or a page, type the following :
 
@@ -53,24 +53,27 @@ or
 troposphere generate page Home
 ```
 
-Your can also ask troposphere to auto import your newly generated files with the
-`--import` option :
+Alias : `g`
 
-```
-troposphere generate component Slider --import
-```
 
-This will generate the CSS and JS files, but also do the following things :
+#### Options
+
+`--import`
+
+Auto import your newly generated files. For example, if you run `troposphere generate component Slider --import`, it will do the following :
 
 * add `@import "slider"` statement in `assets/scss/components/_index.scss`
 * add `import Slider from "./components/slider"` in `assets/js/global.js`
 * instantiate your component automatically on elements that match this selector
 : `.js-slider[data-auto-instantiate]`
 
-If you want to generate only CSS or JS files, you can use `--style` or
-`--script` options. But by default, both files will be generated.
+`--style`
 
-Alias : `g`
+Generate (and import, if you provided `--import` option) only style files.
+
+`--script`
+
+Generate (and import, if you provided `--import` option) only script files.
 
 ### `help [command]`
 
